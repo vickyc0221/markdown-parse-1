@@ -49,7 +49,10 @@ public class MarkdownParseTest {
 	    String contents = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(contents);
         assertEquals(0, links.size());
+<<<<<<< HEAD
       
+=======
+>>>>>>> 19d41bf19de99419d3ad08f1650b138e9a38502f
     }
 }
 
